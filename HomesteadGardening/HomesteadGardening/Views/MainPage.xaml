@@ -2,28 +2,14 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
             xmlns:views="clr-namespace:HomesteadGardening.Views"
+            xmlns:local="clr-namespace:HomesteadGardening"
             x:Class="HomesteadGardening.Views.MainPage">
-    <TabbedPage.Children>
-        <NavigationPage Title="Browse">
-            <NavigationPage.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="tab_feed.png"/>
-                </OnPlatform>
-            </NavigationPage.Icon>
-            <x:Arguments>
-                <views:ItemsPage />
-            </x:Arguments>
-        </NavigationPage>
-        
-        <NavigationPage Title="About">
-            <NavigationPage.Icon>
-                <OnPlatform x:TypeArguments="FileImageSource">
-                    <On Platform="iOS" Value="tab_about.png"/>
-                </OnPlatform>
-            </NavigationPage.Icon>
-            <x:Arguments>
-                <views:AboutPage />
-            </x:Arguments>
-        </NavigationPage>
-    </TabbedPage.Children>
+
+    <!--
+    icons https://material.io/resources/icons/?style=baseline
+    Tabbed page tutorial https://www.youtube.com/watch?v=vaxa65BtHqY 
+    -->
+    <local:Chores></local:Chores>
+    <local:Livestock></local:Livestock>
+
 </TabbedPage>
