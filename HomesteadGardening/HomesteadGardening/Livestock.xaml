@@ -4,7 +4,7 @@
              x:Class="HomesteadGardening.Livestock" Title="Livestock">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Livestock Page!"
+            <Label Text="Livestock Page"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

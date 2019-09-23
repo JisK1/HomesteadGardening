@@ -11,6 +11,7 @@ namespace HomesteadGardening
 {
     static class ServerRequests
     {
+        //for these variables you need to manually create a class that is ignored by github and add theses variables.
         //The ip to connect to the web_server.
         private const string ip = IgnoredVariables.ip;
         private const int timeout = IgnoredVariables.timeout;
