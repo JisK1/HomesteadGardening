@@ -11,5 +11,6 @@
     -->
     <local:Chores></local:Chores>
     <local:Livestock></local:Livestock>
-
+    <local:Expenses></local:Expenses>
+    
 </TabbedPage>

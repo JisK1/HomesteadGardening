@@ -15,7 +15,8 @@ namespace HomesteadGardening
         //The ip to connect to the web_server.
         private const string ip = IgnoredVariables.ip;
         private const int timeout = IgnoredVariables.timeout;
-
+        
+        
         /// <summary>
         /// Attempts to authenticate the user. Returns true if the user 
         /// is authenticated with the server, false upon error or rejection.
